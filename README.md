@@ -2,17 +2,17 @@
 Simple js class for gauge drawing
 
 ## How to use
-1. load script
+1) load script
 ````    
     <script src="js/gauge_drawer.js"></script>
 ````
-2. create canvas
+2) create canvas
 ````
 <body>
     <canvas width="330" height="100" id="canvas" style="width:330px; height:100px;"></canvas>
     ...
 ````
-3. initialize canvas from JS
+3) initialize canvas from JS
 ````
 <script>
     var canvas = document.getElementById('canvas');
@@ -20,7 +20,7 @@ Simple js class for gauge drawing
     canvas.height = 100;
     // ...
 ````
-4. create drawers, you can use as many drawers as you want on one canvas ;)
+4) create drawers, you can use as many drawers as you want on one canvas ;)
 ````
     var gauge1 = new GaugeDrawer({
         canvas: canvas,
